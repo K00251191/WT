@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	
+	<title>E Drinks!</title>
+	
+	<link rel="stylesheet" href="styles/main_rwd.css">
+	
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <script src="scripts/script.js"></script>
+</head>
+
+<body>
+    
+<header>
+    
+    
+    <div class="headerwork">
+        
+    
+ <div class="login"><a href="register.html" >Login</a><a href="signup.html" > / Signup</a></div>    
+        
+   
+    
+    
+    
+        
+        <div class="logo"><a href="#header"><img src="images/logo.jpg" alt="logo"></a></div>
+    
+       
+       
+        <div class="energys">
+            <h2>Energy!</h2>
+
+            <h3>Full up your body</h3>
+        </div>   
+    
+        <div class="none"> 
+            <p><br></p>
+    </div>
+    </div>
+    
+    
+ </header>
+    
+<nav class="topnav" id="myTopnav">
+    
+  <a href="index.html" class="active">Home</a>
+  <a href="history.html">Products</a>
+    
+  <a href="event.html">Sponsor</a>
+    
+  <a href="result.html">Join us</a>
+    
+  <a href="result.html">Gift</a>
+   
+  <label for="searchfield">
+  <input type="search" name="searchfield" id="searchfield" placeholder="Search..."><button id="go">Go</button>
+  </label>
+    
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+        
+       
+</nav>
+    
+<div class="registermain">
+        <h1>Register Page</h1>
+        
+        <form action="" autocomplete="off">
+            <fieldset>
+                <legend>Please enter your personal information: </legend>
+                <div>
+                    <label for="firstName">First name:
+                        <input type="text" id="firstName" autofocus placeholder="Joe">
+                    </label>
+                    
+                    <label for="lastName">Last name:
+                        <input type="text" id="lastName" placeholder="Bloggs">
+                    </label>
+                </div>
+                <div>
+                    <label for="address">Address:
+                        <input type="text" id="address" size="40" placeholder="John St Limerick">
+                    </label>
+                </div>
+                
+                <label for="email">Email:
+                        <input type="email" id="email" placeholder="xxxx@gmail.com">
+                    </label>
+                
+                <div>
+                    <label for="Phone">Phone:
+                        <input type="text" id="Phone" placeholder="(086)xxxxxx">
+                    </label>
+                </div>
+            </fieldset>
+            <button id="btnsubmit">Submit</button>
+            <button id="btnreset">Reset</button>
+        </form>
+
+</div>
+ 
+    
+<footer>
+    <div class="foot">
+    <div class="f1">
+        <h2>Nav links</h2>
+    
+        <a href="#f1">Products</a><br>
+        <a href="#f1">Sponsor</a><br>
+        <a href="#f1">Join us</a><br>
+        <a href="#f1">Gift</a><br>
+    </div>  
+    
+    <div class="f2">
+        <h2>Digital Clock</h2>    <!-- Display a title. -->
+
+<span id="clock"></span>  <!-- We will insert the time into this element. -->
+<script>
+
+
+// Define a function to display the current time
+function displayTime() {
+    let clock = document.querySelector("#clock"); // Get element with id="clock"
+    let now = new Date();                         // Get current time
+    clock.textContent = now.toLocaleTimeString(); // Display time in the clock
+}
+displayTime()                    // Display the time right away
+setInterval(displayTime, 1000);  // And then update it every second. 
+
+</script>
+        
+</div>
+    
+    <div class="f3"> 
+    <h2>Follow us</h2>
+        <a href="#f3"><img src="images/youtube.png" alt="youtube"></a>
+        <a href="#f3"><img src="images/facebook.png" alt="facebook"></a>
+        <a href="#f3"><img src="images/twitter.png" alt="twitter"></a>
+    </div> 
+    </div>
+<p id="end">© 2020/11/18</p>
+
+</footer>  
+   
+</body>
+</html>

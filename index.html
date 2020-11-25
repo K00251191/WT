@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	
+	<title>E Drinks!</title>
+	
+	<link rel="stylesheet" href="styles/main_rwd.css">
+	
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <script src="scripts/script.js"></script>
+</head>
+
+<body>
+    
+<header>
+    
+    
+    <div class="headerwork">
+        
+    
+    <div class="login"><a href="register.html" >Login</a><a href="signup.html" > / Signup</a></div>   
+        
+   
+    
+    
+    
+        
+        <div class="logo"><a href="#header"><img src="images/logo.jpg" alt="logo"></a></div>
+    
+       
+       
+        <div class="energys">
+            <h2>Energy!</h2>
+
+            <h3>Full up your body</h3>
+        </div>   
+    
+        <div class="none"> 
+            <p><br></p>
+    </div>
+    </div>
+    
+    
+ </header>
+    
+<nav class="topnav" id="myTopnav">
+    
+  <a href="index.html" class="active">Home</a>
+  <a href="#header">Products</a>
+    
+  <a href="#header">Sponsor</a>
+    
+  <a href="#header">Join us</a>
+    
+  <a href="#header">Gift</a>
+   
+  <label for="searchfield">
+  <input type="search" name="searchfield" id="searchfield" placeholder="Search..."><button id="go">Go</button>
+  </label>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+        
+       
+</nav>
+    
+
+        
+
+
+<div class="main">
+    
+    <div class="drinks">
+        <img src="images/drink.jpg" alt="drink">
+        </div> 
+    
+    <h2>Top Popular</h2>
+    
+    <div class="productlist">
+        
+    <ul id="image_list">
+            <li><a href="images/redbull1.png" title="redbull">
+                <!--<image from google:
+        https://www.google.com/url?sa=i&url=https%3A%2F%2Fnl1311684506fumq.trustpass.alibaba.com%2Fproduct%2F50039930911-231392143%2FRed_bull_Energy_Drink.html&psig=AOvVaw0L5Nh7_dKHoUV6dWvh0t71&ust=1605757094677000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNinlN6Yi-0CFQAAAAAdAAAAABAN>-->
+                </a></li>
+        
+            <li><a href="images/monster1.png" title="monster">
+                <!--<image from google:
+        https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sainsburys.co.uk%2Fgol-ui%2Fproduct%2Ffizzy-drinks-special-offers%2Fmonster-energy-500ml&psig=AOvVaw11CRV0kgVw6u9JkGine4Rj&ust=1605757331357000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKjbysiYi-0CFQAAAAAdAAAAABAE>-->
+                </a></li>
+        
+            <li><a href="images/gatorade1.png" title="gatorade">
+                <!--<image from google:
+        https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.indiamart.com%2Fproddetail%2Fgatorade-blue-bolt-flavour-sports-drink-15494167833.html&psig=AOvVaw1ezQUG7gGVmCbiDkgfdIVl&ust=1605757537376000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKiG0I2Xi-0CFQAAAAAdAAAAABAl>-->
+                </a></li>
+
+        </ul>
+    
+        <div class="product"><img id="main_image" src="images/redbull1.png" alt="redbull"></div>
+        <h3 id="caption">redbull</h3>    
+
+        
+    </div>
+    
+    
+    <div class="grid">
+    
+        <div class="p1">
+        <img src="images/redbull1.png" alt="redbull">
+            <h3 class="e1">redbull</h3>
+        </div>
+    
+        <div class="p2">
+        <img src="images/monster1.png" alt="monster">
+            <h3 class="e1">monster</h3>
+        </div>
+        
+        <div class="p3">
+        <img src="images/gatorade1.png" alt="gatorade">
+            <h3 class="e1">gatorade</h3>
+        </div>
+        
+    </div>
+    
+    </div>
+ 
+    
+<footer>
+    <div class="foot">
+    <div class="f1">
+        <h2>Nav links</h2>
+    
+        <a href="#f1">Products</a><br>
+        <a href="#f1">Sponsor</a><br>
+        <a href="#f1">Join us</a><br>
+        <a href="#f1">Gift</a><br>
+    </div>  
+    
+    <div class="f2">
+        <h2>Digital Clock</h2>    <!-- Display a title. -->
+
+<span id="clock"></span>  <!-- We will insert the time into this element. -->
+<script>
+
+
+// Define a function to display the current time
+function displayTime() {
+    let clock = document.querySelector("#clock"); // Get element with id="clock"
+    let now = new Date();                         // Get current time
+    clock.textContent = now.toLocaleTimeString(); // Display time in the clock
+}
+displayTime()                    // Display the time right away
+setInterval(displayTime, 1000);  // And then update it every second. 
+
+</script>
+        
+</div>
+    
+    <div class="f3"> 
+    <h2>Follow us</h2>
+        <a href="#f3"><img src="images/youtube.png" alt="youtube"></a>
+        <a href="#f3"><img src="images/facebook.png" alt="facebook"></a>
+        <a href="#f3"><img src="images/twitter.png" alt="twitter"></a>
+    </div> 
+    </div>
+<p id="end">© 2020/11/18</p>
+
+</footer>  
+   
+</body>
+</html>
